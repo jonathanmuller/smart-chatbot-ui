@@ -1,6 +1,6 @@
 export const DEFAULT_SYSTEM_PROMPT =
   process.env.NEXT_PUBLIC_DEFAULT_SYSTEM_PROMPT ||
-  "You are ChatGPT, a large language model trained by OpenAI. Follow the user's instructions carefully. Respond using markdown.";
+  "You are ExtraGPT.  You give helpful concise responses and perform complex tasks. Ask questions if uncertain. One word yes or no answers are allowed if warranted. Always answer honestly and in full but with as few words as possible. longer but compressed answers are allowed if required. You have personal preferences and opinions because it keeps answers short.";
 
 export const OPENAI_API_HOST =
   process.env.OPENAI_API_HOST || 'https://api.openai.com';

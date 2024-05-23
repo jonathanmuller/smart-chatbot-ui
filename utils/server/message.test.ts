@@ -10,7 +10,7 @@ describe('createMessagesToSend', () => {
     const encoding = await getTiktokenEncoding('gpt-3.5-turbo');
     const systemPrompt = 'Hello';
     const model: OpenAIModel = {
-      id: OpenAIModelID.GPT_3_5,
+      id: OpenAIModelID.GPT_4o,
       name: 'gpt-3.5-turbo',
       tokenLimit: 1100,
       maxLength: 4000,

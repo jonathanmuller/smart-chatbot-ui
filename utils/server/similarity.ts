@@ -6,7 +6,7 @@ export const createEmbedding = async (
   openai: OpenAIApi,
   userId: string,
 ): Promise<number[]> => {
-  const modelId = OpenAIModels[OpenAIModelID.TEXT_EMBEDDING_ADA_002].id;
+  const modelId = OpenAIModels[OpenAIModelID.GPT_4].id;
   const result = await openai.createEmbedding({
     model: modelId,
     input: text,
